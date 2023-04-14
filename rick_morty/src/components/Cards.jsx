@@ -1,5 +1,5 @@
 import Card from "./Card";
-export default function Cards(characters, onClose,id) {
+export default function Cards({characters, onClose,id}) {
   
   return (
     <div>
